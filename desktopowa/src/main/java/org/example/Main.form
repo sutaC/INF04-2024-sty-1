@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.Main">
+  <grid id="27dc6" binding="Root" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1067" height="477"/>
+    </constraints>
+    <properties>
+      <background color="-10510688"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="bf990" binding="panMain" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="25" vgap="25">
+        <margin top="25" left="25" bottom="25" right="25"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10510688"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="e4230" binding="panData" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="true"/>
+            </constraints>
+            <properties>
+              <background color="-10510688"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1f11c" class="javax.swing.JLabel" binding="lNumber">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Numer"/>
+                </properties>
+              </component>
+              <component id="4b4b9" class="javax.swing.JTextField" binding="tfNumber">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-983041"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="39e08" class="javax.swing.JLabel" binding="lName">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Imię"/>
+                </properties>
+              </component>
+              <component id="a6de3" class="javax.swing.JLabel" binding="lSurname">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Nazwisko"/>
+                </properties>
+              </component>
+              <component id="171e1" class="javax.swing.JTextField" binding="tfName">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-983041"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="85e0" class="javax.swing.JTextField" binding="tfSurname">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-983041"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <grid id="3bdd4" binding="panEyes" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-10510688"/>
+                </properties>
+                <border type="line" title="Kolor oczu">
+                  <title-color color="-16777216"/>
+                  <color color="-983041"/>
+                </border>
+                <children>
+                  <component id="e05b0" class="javax.swing.JRadioButton" binding="rbEyesBrown">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10510688"/>
+                      <text value="piwne"/>
+                    </properties>
+                  </component>
+                  <component id="18ea9" class="javax.swing.JRadioButton" binding="rbEyesGreen">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10510688"/>
+                      <text value="zielone"/>
+                    </properties>
+                  </component>
+                  <component id="a9d52" class="javax.swing.JRadioButton" binding="rbEyesBlue">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="3" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-10510688"/>
+                      <selected value="true"/>
+                      <text value="niebieskie"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="679f1" binding="panResults" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="true"/>
+            </constraints>
+            <properties>
+              <background color="-10510688"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ce86e" class="javax.swing.JButton" binding="btnOk">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="300" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-983041"/>
+                  <foreground color="-16777216"/>
+                  <hideActionText value="false"/>
+                  <text value="OK"/>
+                </properties>
+              </component>
+              <component id="26279" class="javax.swing.JLabel" binding="imgPerson">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <maximum-size width="-1" height="180"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="cat1.jpg"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="6b5f6" class="javax.swing.JLabel" binding="imgPrint">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <maximum-size width="-1" height="180"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <icon value="paw.jpg"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="rbgEyes">
+      <member id="e05b0"/>
+      <member id="e05b0"/>
+      <member id="18ea9"/>
+      <member id="a9d52"/>
+    </group>
+  </buttonGroups>
+</form>
