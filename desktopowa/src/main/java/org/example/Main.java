@@ -30,14 +30,19 @@ public class Main {
             public void focusLost(FocusEvent e) {
                 super.focusLost(e);
                 String num = tfNumber.getText();
-                URL iconURL = getClass().getResource("/cat" + num + ".jpg");
-                if(iconURL == null){
+                URL personIconURL = getClass().getResource("/" + num + "-zdjecie.jpg");
+                URL printIconURL = getClass().getResource("/" + num + "-odcisk.jpg");
+                if(personIconURL == null || printIconURL == null){
                     imgPerson.setVisible(false);
+                    imgPrint.setVisible(false);
                     return;
                 }
                 imgPerson.setVisible(true);
-                ImageIcon icon = new ImageIcon(iconURL);
-                imgPerson.setIcon(icon);
+                imgPrint.setVisible(true);
+                ImageIcon personIcon = new ImageIcon(personIconURL);
+                ImageIcon printIcon = new ImageIcon(printIconURL);
+                imgPerson.setIcon(personIcon);
+                imgPrint.setIcon(printIcon);
             }
         });
         btnOk.addActionListener(new ActionListener() {

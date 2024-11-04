@@ -158,25 +158,27 @@
               </component>
               <component id="26279" class="javax.swing.JLabel" binding="imgPerson">
                 <constraints>
-                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="180"/>
                     <maximum-size width="-1" height="180"/>
                   </grid>
                 </constraints>
                 <properties>
                   <horizontalAlignment value="0"/>
                   <horizontalTextPosition value="0"/>
-                  <icon value="cat1.jpg"/>
+                  <icon value="000-zdjecie.jpg"/>
                   <text value=""/>
                 </properties>
               </component>
               <component id="6b5f6" class="javax.swing.JLabel" binding="imgPrint">
                 <constraints>
-                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="180"/>
                     <maximum-size width="-1" height="180"/>
                   </grid>
                 </constraints>
                 <properties>
-                  <icon value="paw.jpg"/>
+                  <icon value="000-odcisk.jpg"/>
                   <text value=""/>
                 </properties>
               </component>
